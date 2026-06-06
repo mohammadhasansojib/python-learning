@@ -34,3 +34,20 @@ myvar2 = "John"
 my-var = "John"
 my var = "John"
 """
+
+
+#* Many Values to Multiple Variables
+# Python allows you to assign values to multiple variables in one line:
+
+f1, f2, f3 = "Mango", "Banana", "Orange"
+print(f1, f2, f3)
+
+#* Unpack a Collection
+# If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+
+fruits = ["Cherry", "Apple", "Jack Fruit"]
+fruit1, fruit2, fruit3 = fruits
+print(fruits)
+print(fruit1, fruit2, fruit3)
+
+
